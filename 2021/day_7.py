@@ -35,3 +35,10 @@ for position in range(1, np.max(data) + 1):
 
 print(best_position)
 print(best)
+
+# Part 2 w/ maths
+
+X = np.sum(data)
+N = len(data)
+
+print(0.5 * (2 * X - N) / N)
